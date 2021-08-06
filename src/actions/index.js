@@ -30,4 +30,4 @@ const toggleTheme=()=>{
     }
 }
 
-export { updatePlace, updatePlaceData };
+export { updatePlace, updatePlaceData ,toggleTheme};
