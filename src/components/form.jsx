@@ -6,7 +6,7 @@ const Form = () => {
   const place = useSelector((state) => state.place);
   const dispatch = useDispatch();
   return (
-    <div className="container">
+    <div className="container1">
       <div className="row">
         <div className="col-12 form">
           <input

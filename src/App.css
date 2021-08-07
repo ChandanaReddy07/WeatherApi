@@ -7,17 +7,20 @@
 
 }
 .form {
-  
   display: flex;
   justify-content: center;
 }
+.container2{
+  margin-top: 50px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
 .temp{
-
   font-size:50px;
-
 }
 .place{
-  font-size:50px;
+  font-size:500px;
 }
 .weather{
   text-align: center;
@@ -37,19 +40,19 @@
     width:400px;
 }
 .card .temp{
-  font-size:4rem;
+  font-size:5rem;
   margin-left:30.39px;
   font-weight:500;
 
 }
 .card .place{
-  font-size:1.2rem;
+  font-size:3rem;
   font-weight: 500;
   opacity:0.8;
   margin: 20px 0px;
 }
 .card .desc{
-  font-size:0.8rem;
+  font-size:1.5rem;
   font-weight: 500;
 }
 .whp{
