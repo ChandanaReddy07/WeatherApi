@@ -10,6 +10,7 @@ const App = () => {
   const theme=useSelector(state=>state.theme)
   return (
     <div className={theme?"App":"App dark"} >
+    <h1>hlooo</h1>  
       <ThemeToggle/>
       <Form/>
       <WeatherCard/>
