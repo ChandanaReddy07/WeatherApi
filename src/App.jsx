@@ -9,8 +9,7 @@ import { useSelector } from 'react-redux'
 const App = () => {
   const theme=useSelector(state=>state.theme)
   return (
-    <div className={theme?"App":"App dark"} >
-    <h1>hlooo there</h1>  
+    <div className={theme?"App":"dark App"} >
       <ThemeToggle/>
       <Form/>
       <WeatherCard/>

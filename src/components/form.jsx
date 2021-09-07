@@ -7,8 +7,10 @@ const Form = () => {
   const dispatch = useDispatch();
   return (
     <div className="container1">
-      <div className="row">
-        <div className="col-12 form">
+    
+      <div>
+        <div className="form">
+       
           <input
             type=""
             onChange={(e) => {

@@ -9,7 +9,7 @@ const WeatherCard = () => {
     // console.log("hi",placeData)
    return (
     <div className="container2" >
-      <div className="row">
+      <div>
         <div className=" offset-md-4 col-4 offset-md-4 card">
           {placeData.location ? (
             
